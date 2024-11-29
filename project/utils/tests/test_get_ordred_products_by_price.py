@@ -1,5 +1,5 @@
-from models.product import Product
-from utils.get_ordered_products_by_price import get_ordered_products_by_price
+from project.models.product import Product
+from project.utils.get_ordered_products_by_price import get_ordered_products_by_price
 
 
 def test_get_ordered_products_by_price():

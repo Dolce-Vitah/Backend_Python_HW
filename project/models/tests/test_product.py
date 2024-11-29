@@ -1,4 +1,4 @@
-from models.product import Product
+from project.models.product import Product
 
 
 class TestProduct:

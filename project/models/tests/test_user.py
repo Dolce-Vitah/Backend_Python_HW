@@ -1,6 +1,6 @@
 import pytest
 
-from models.user import User
+from project.models.user import User
 
 
 class TestUser:

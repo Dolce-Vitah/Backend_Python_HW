@@ -2,7 +2,7 @@ import uuid
 
 import pytest
 
-from models.comment import Comment
+from project.models.comment import Comment
 
 
 class TestComment:
