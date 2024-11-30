@@ -1,6 +1,6 @@
-from models.comment import Comment
-from models.user import User
-from utils.filter_comments_by_author import filter_comments_by_author
+from project.models.comment import Comment
+from project.models.user import User
+from project.utils.filter_comments_by_author import filter_comments_by_author
 
 
 def test_filter_comments_by_author():

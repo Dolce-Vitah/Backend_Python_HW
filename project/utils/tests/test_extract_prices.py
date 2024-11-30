@@ -1,5 +1,5 @@
-from models.product import Product
-from utils.extract_prices import extract_prices
+from project.models.product import Product
+from project.utils.extract_prices import extract_prices
 
 
 def test_extract_prices():

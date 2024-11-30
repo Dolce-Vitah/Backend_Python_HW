@@ -1,7 +1,7 @@
 import uuid
 
-from models.comment import Comment
-from utils.get_ordered_comments_by_likes import get_ordered_comments_by_likes
+from project.models.comment import Comment
+from project.utils.get_ordered_comments_by_likes import get_ordered_comments_by_likes
 
 
 def test_get_ordered_comments_by_likes():

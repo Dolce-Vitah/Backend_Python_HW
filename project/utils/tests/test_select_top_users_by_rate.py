@@ -1,5 +1,5 @@
-from models.user import User
-from utils.select_top_users_by_rate import select_top_users_by_rate
+from project.models.user import User
+from project.utils.select_top_users_by_rate import select_top_users_by_rate
 
 
 def test_select_top_users_by_rate():
